@@ -17,5 +17,5 @@ for (def student in students){
 println("Name:$maxTuple.v1\nGender:$maxTuple.v2\nmarks:$maxTuple.v3")
 
 
-
-
+def l1=students.findAll{it.v2=='f'}.collect{Tuple.tuple(it.v1,it.v3)}
+println(l1)

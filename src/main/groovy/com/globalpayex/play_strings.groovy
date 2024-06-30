@@ -34,9 +34,27 @@ println(msg.count("good"))
 println(msg.reverse())
 println(msg.size())
 
-def ran
+
 def ranm="          "
 println(ranm.isAllWhitespace())
+
+
+def m1="pranjal choudhari"
+def m2="pranjal"
+def m3=m2+" choudhari"
+def m4="pranjal choudhari"
+
+println(m1)
+println(m3)
+
+println(m1==m3) //equals
+
+println(m1===m3)    //compare addresses
+println(m1===m4)
+
+
+
+
 
 
 //---------------------sir-------------------

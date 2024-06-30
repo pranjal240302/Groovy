@@ -5,7 +5,7 @@ package com.globalpayex
 // ordered
 // immutable
 
-def t1 = Tuple.tuple("mehul", 10, 'm', 90)
+def t1 = Tuple.tuple("pranjal", 10, 'm', 90)
 
 // access elements
 println t1.v1
@@ -18,7 +18,7 @@ for(def v in t1) {
 }
 
 // modify
-// t1.v1 = "Jane" // cannot modify
+// t1.v1 = "nisha" // cannot modify
 // t1.v2 = 11
 
 // t1.push("india")

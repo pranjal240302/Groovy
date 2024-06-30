@@ -70,3 +70,10 @@ def marksDivisions = [
 ]
 
 println marksDivisions.flatten().average()
+
+
+def names=["pranjal","ravi",null,"Rahul"]
+println names*.toUpperCase()  //wont five null pointer exception bull will be ignored
+
+//safe obejct navigation (?.)
+names.each {println(it?.toUpperCase())}
